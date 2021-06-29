@@ -1,0 +1,101 @@
+
+h1 {
+    color: rgb(69, 66, 241);
+    font-size: 30px;
+    font-family:cursive;
+}
+h2 {
+    font-size: 30px;
+    color: purple;
+    font-family: fantasy;
+}
+#link {
+    color: linen;
+    text-decoration: none;
+}
+p {
+    font-size: 20px;
+    color: rgb(118, 0, 253);
+}
+.box>div {
+    font-size: 20px;
+    color:rgb(69, 66, 241);     
+ }
+body {
+    margin: auto;
+    max-width: 450px;
+}
+.box {
+    margin: 20px;
+    height: 360px;
+    width: 400px;
+    padding: 20px;
+    transition: transform 0.09s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.one {
+    border-top: 10px solid cyan;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
+}
+.two {
+    border-top: 10px solid brown;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
+}
+
+.three {
+    border-top: 10px solid green;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
+}
+
+.four {
+    border-top: 10px solid red;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.479);
+    background-color: rgb(69, 66, 241);
+    color: white;
+    font-size: 30px;
+}
+
+button {
+    font-size: 15px;
+    font-family: cursive;
+    background-color: limegreen;
+    border-radius: 40%;
+}
+
+.ham div{
+    background-color: black;
+    width: 20px;
+    height: 5px;
+    margin-bottom: 2px;
+}
+header {
+    position: relative;
+    height: 160px;
+    width: 450px;
+}
+.ham {
+    display: inline-block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    transition: transform 0.09s ease-in-out;
+}
+
+.ham:hover {
+    transform: scale(1.1);
+    cursor:pointer;
+}
+
+footer {
+    margin: auto;
+    text-align: center;
+
+}
+
+footer {
+    margin-left: 45px;
+}
